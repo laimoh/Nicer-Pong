@@ -1,15 +1,17 @@
 # Nicer-Pong
 A visitor friendly version of pong, I tried to make take the 64 bit canvas into consideration and made the design more pixelated i.e font, layout, button styles - inpsired by old video game eras.
 
-### to install the dependencies run this code in the terminal in the main Pong folder.
+## Step 1) to install the dependencies run this code in the terminal in the main Pong folder.
 ```
 npm install
 ```
-### to start the server, run this code in the terminal in the main Pong folder 
+## Step 2) to start the server, run this code in the terminal in the main Pong folder 
 (after runnung the command make sure, node-modules folder exists in the main folder - if not reopen the file)
 ```
 node server.js
 ```
+## Step 3) Visit localhost:3000 on the web to play the game
+
 
 ### In sketch.js file, change this variable to scale down/up the game 
 ```
@@ -34,6 +36,6 @@ this.ys = (0.5 * highRez) //  0.5 -> between 0 - 1 ( depending on sceen size)
 - I would slow down the puck speed as it hit the paddle but speed it up when it's moving normally to showcase a slo mo effects 
 - - When the timer is running out (10 secs) I would play a ticking sound and cause the web UI background color between black and white (adding pressure)
 - The game definitely needs sound to make it way more engaging - to give cues to the players for emphasing key moments in the game. However the I encountered feedback loops on testing - guessing coz I had two players on the same computer?
-
+- DEPLOY IT TO THE WEB SO PEOPLE CAN ACTUALLY START PLAYING IT
 
 ## An ambitious idea : Try to make a four player pong with each puck gaurding each side.
