@@ -31,7 +31,7 @@ this.ys = (0.5 * highRez) //  0.5 -> between 0 - 1 ( depending on sceen size)
 
 ## In the future some change to make the game less buggy and accepting of many socket -> 
 
-- I would suggest having the server allocate main to the first connected, and secondary to anyone else, and that means the main client sends data that the secondaries receive about the puck position, and that the secondary only sends paddle position to the main. This would stop the ghostly characters forming when the game is played the second time in a row.
+- I would suggest having the server allocate main to the first client connected, and secondary to anyone else, and that means the main client sends data that the secondaries receive about the puck position, and that the secondary only sends paddle position to the main. This would stop the ghostly characters forming when the game is played the second+ times in a row.
 - I would add cos and sin to angle direction of the way the paddle hits the puck to cause variety in it's movement.
 - The high score list on the client side needs to show 10 top scores, currently doesn't have a limit.
 - I would slow down the puck speed as it hit the paddle but speed it up when it's moving normally to showcase a slo mo effects 
