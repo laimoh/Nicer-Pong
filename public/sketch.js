@@ -5,7 +5,7 @@ let start = false;
 let players = [];
 let counter = 0;
 let highRez = 4; // 4x times a 64 bit canvas  
-let timer = 60; // 1 min
+let timer = 30; // 30 secs
 let topScore = 0 
 let botScore = 0
 let currentHighest;
