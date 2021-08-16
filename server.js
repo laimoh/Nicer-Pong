@@ -5,7 +5,6 @@ function Puck(id,x,y,r,xs,ys) {
    this.r = r;
    this.xs = xs;
    this.ys = ys;
-  
  }
  
  function Player(id,x,y,w,h,p){
@@ -21,7 +20,7 @@ function Puck(id,x,y,r,xs,ys) {
  
  const express = require('express');
  const app = express();
- let server = app.listen(3000);
+ let server = app.listen(process.env.PORT || 3000);
  app.use(express.static('public'));
  console.log('server running');
  
