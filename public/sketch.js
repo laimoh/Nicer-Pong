@@ -1,4 +1,4 @@
-let socket = io.connect('https://murmuring-refuge-55014.herokuapp.com/' || 'http://localhost:3000');
+let socket = io.connect('http://localhost:3000');
 let player;
 let puck;
 let start = false;
