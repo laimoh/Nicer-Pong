@@ -5,7 +5,8 @@ A visitor friendly version of pong, I tried to make take the 64 bit canvas into 
 ```
 npm install
 ```
-### to start the server, run this code in the terminal in the main Pong folder
+### to start the server, run this code in the terminal in the main Pong folder 
+(after runnung the command make sure, node-modules folder exists in the main folder - if not reopen the file)
 ```
 node server.js
 ```
