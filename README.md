@@ -1,5 +1,5 @@
 # Nicer-Pong
-A visitor friendly version of pong, I tried to make take the 64 bit canvas into consideration and made the design more pixelated i.e font, layout, button styles - inpsired by old video game eras.
+A visitor friendly version of pong made for mobile sized screens, I tried to make take the 64 bit canvas into consideration and made the design more pixelated i.e font, layout, button styles - inpsired by old video game eras.
 
 ## Step 1) to install the dependencies run this code in the terminal in the main Pong folder.
 ```
