@@ -20,7 +20,8 @@ function Puck(id,x,y,r,xs,ys) {
  
  const express = require('express');
  const app = express();
- let server = app.listen(3000);
+ let port = process.env.PORT || 3000
+ let server = app.listen(port);
  app.use(express.static('public'));
  console.log('server running');
  
