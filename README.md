@@ -1,5 +1,5 @@
 # Nicer-Pong
-A visitor friendly version of pong
+A visitor friendly version of pong, I tried to make take the 64 bit canvas into consideration and made the design more pixelated i.e font, layout, button styles - inpsired by old video game eras.
 
 ## to install the dependencies run this code in the terminal in the main Pong folder.
 ```
@@ -24,10 +24,6 @@ let timer = 30 // 30, 60, 90, 120 secs
 this.xs = (0.4 * highRez) //  0.4 -> between 0 - 1 ( depending on sceen size)
 this.ys = (0.5 * highRez) //  0.5 -> between 0 - 1 ( depending on sceen size)
 ```
-
-##Things I was thinking about -> 
-- I tried to make take the 64 bit canvas into consideration and made the design more pixelated i.e font, layout, button styles - inpsired by old video game eras
-- 
 
 ##In the future some change to make the game less buggy and accepting of many socket -> 
 
