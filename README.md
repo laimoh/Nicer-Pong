@@ -30,9 +30,9 @@ this.ys = (0.5 * highRez) //  0.5 -> between 0 - 1 ( depending on sceen size)
 - I would suggest having the server allocate main to the first connected, and secondary to anyone else, and that means the main client sends data that the secondaries receive about the puck position, and that the secondary only sends paddle position to the main. This would stop the ghostly characters forming when the game is played the second time in a row.
 - I would add cos and sin to angle direction of the way the paddle hits the puck to cause variety in it's movement.
 - The high score list on the client side needs to show 10 top scores, currently doesn't have a limit
-- I would slow down the puck speed as it hit the paddle to showcase a slo mo effects
-- The game definitely needs sound to make it way more engaging - to give cues to the players for emphasing key moments in the game.
-- When the timer is running out (10 secs) I would play a ticking sound and cause the web UI background color between black and white (adding pressure)
+- I would slow down the puck speed as it hit the paddle but speed it up when it's moving normally to showcase a slo mo effects 
+- - When the timer is running out (10 secs) I would play a ticking sound and cause the web UI background color between black and white (adding pressure)
+- The game definitely needs sound to make it way more engaging - to give cues to the players for emphasing key moments in the game. However the I encountered feedback loops on testing - guessing coz I had two players on the same computer?
 
 
 ## An ambitious idea : Try to make a four player pong with each puck gaurding each side.
